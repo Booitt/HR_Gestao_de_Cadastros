@@ -1,0 +1,1 @@
+export const hasEmptyField = (state) => !Object.entries(state).every(entrie => entrie[1].trim());
